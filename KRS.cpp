@@ -23,10 +23,10 @@ void mhsCari(){
 	system("cls");
 	cout<<"CARI DATA MAHASISWA"<<endl;
 	for(int i = 0;i<10;i++){
-		cout<<mhs[i].nama;
-		cout<<mhs[i].nim;
-		cout<<mhs[i].prodi;
-		cout<<mhs[i].prodi;
+		cout<<mhs[i].nama<<endl;
+		cout<<mhs[i].nim<<endl;
+		cout<<mhs[i].prodi<<endl;
+		cout<<mhs[i].prodi<<endl;
 	}
 }
 
