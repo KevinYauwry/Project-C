@@ -19,7 +19,6 @@ void mhsData(){
 	mhs[0].ipk = "4.00";
 	mhs[0].prodi = "Teknik Informatika";
 	mhs[0].nim = 1462200164;
-	i++;
 }
 
 void mhsCari(){
