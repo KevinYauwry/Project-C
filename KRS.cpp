@@ -78,7 +78,7 @@ int main(){
 	mhs[1].prodi = "Teknik Informatika";
 	mhs[1].nim   = 164;
 	mhs[2].nama  = " M. Faisal Bustomi";
-	mhs[2].ipk   = "-4.00";
+	mhs[2].ipk   = "4.00";
 	mhs[2].prodi = "Teknik Informatika";
 	mhs[2].nim   = 157;
 		
