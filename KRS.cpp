@@ -11,6 +11,7 @@ struct dosen{
 	string nama;
 	int nidn;
 }dsn[10];
+int i;
 
 void mhsData(){
 mhs[0].nama = "Kevin Yauwry";
@@ -22,7 +23,7 @@ mhs[0].nim = 1462200164;
 void mhsCari(){
 	system("cls");
 	cout<<"CARI DATA MAHASISWA"<<endl;
-	for(int i = 0;i<10;i++){
+	for(i = 0;i<10;i++){
 		cout<<mhs[i].nama<<endl;
 		cout<<mhs[i].nim<<endl;
 		cout<<mhs[i].prodi<<endl;
