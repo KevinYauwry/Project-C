@@ -22,7 +22,7 @@ void mhsData(){
 }
 
 void mhsCari(){
-	string cariNim;
+	int cariNim;
 	system("cls");
 	cout<<"CARI DATA MAHASISWA"<<endl;
 	cout<<"Masukkan Nim : ";
