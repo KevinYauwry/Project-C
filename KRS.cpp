@@ -7,7 +7,7 @@ using namespace std;
 struct kelas{
 	string matkul, kelas, jam,  status, ruang, hari;
 	int sks, kode;
-}kls[10];
+}kls[16];
 
 struct mahasiswa{
 	string nama, prodi, ipk, pass, nim, jKelamin, fklts, tLahir;
