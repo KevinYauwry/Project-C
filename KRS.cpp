@@ -177,7 +177,7 @@ void mhsPil(int a){
 	cout<<"|---------------------------------------------------------------------------------------------------------------------------------------------------|\n";
 	cout<<"|No|  Kode Matkul  |                       Matkul                     |     Sks      |     Hari     |         Jam         |   Ruangan  |   Status   |\n";
 	cout<<"|---------------------------------------------------------------------------------------------------------------------------------------------------|\n";	
-	for(int i = 0;i<8;i++){
+	for(int i = 0;i<16;i++){
 		gotoxy(1,i+4);cout<<i+1;
 		gotoxy(6,i+4);cout<<kls[i].kode;
 		gotoxy(27,i+4);cout<<kls[i].matkul;
@@ -195,14 +195,14 @@ void mhsPil(int a){
 	if(mhs[a].kls[krs].status == "Diambil"){
 		cout<<"Mata Kuliah Sudah Diambil\n";
 	}
-	else if(krs>8){
+	else if(krs>16){
 		cout<<"Mata Kuliah Tidak Ada\n";
 	}
 	else{
-	for(int i=0;i<8;i++){
+	for(int i=0;i<16;i++){
 	total += mhs[a].kls[i].sks;
 	}
-	if(total>19){
+	if(total>7){
 	cout<<"Batas Maksimal SKS sudah tercapai\n";
 		}
 	else{
